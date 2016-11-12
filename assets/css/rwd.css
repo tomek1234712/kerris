@@ -1,0 +1,138 @@
+@media (min-width: 1600px) and (max-width: 1750px) {
+    #aboutUs-section .desc{width: 44%;}
+    #general-menu ul li a{}
+    #aboutUs-section .subLogo{}
+}
+@media (min-width: 1500px) and (max-width: 1599px) {
+    #aboutUs-section .desc{width: 44%;}
+    #general-menu ul li a{}
+    #aboutUs-section .subLogo{width: 20%;}
+}
+@media (min-width: 1400px) and (max-width: 1499px) {
+    #aboutUs-section .desc{width: 44%;margin: 4px auto 70px auto;}
+    #general-menu ul li a{}
+    #aboutUs-section .subLogo{width: 20%;margin: 25px auto 1px auto;}
+}
+@media (min-width: 1300px) and (max-width: 1399px) {
+    #aboutUs-section .desc{width: 44%;margin: 4px auto 70px auto;}
+    #general-menu ul li a{margin-left: 53px;}
+    #aboutUs-section .subLogo{width: 20%;margin: 25px auto 10px auto;}
+}
+@media (min-width: 1200px) and (max-width: 1299px) {
+    #aboutUs-section .desc{width: 49%;margin: 4px auto 28px auto;font-size: 14px;}
+    #general-menu ul li a{margin-left: 53px;}
+    #aboutUs-section .subLogo{width: 14%;margin: 26px auto 0px auto;}
+}
+@media (min-width: 1100px) and (max-width: 1199px) {
+    #aboutUs-section .desc{width: 49%;margin: 4px auto 28px auto;font-size: 14px;}
+    #general-menu ul li a{margin-left: 35px;}
+    #aboutUs-section .subLogo{width: 14%;margin: 7px auto -15px auto;}
+}
+@media (min-width: 992px) and (max-width: 1099px) {
+    #aboutUs-section .desc{width: 49%;margin: 4px auto 28px auto;font-size: 14px;}
+    #general-menu ul li a{margin-left: 15px;}
+    #aboutUs-section .subLogo{display: none;}
+}
+@media (min-width: 100px) and (max-width: 991px) {
+    .page-wrap{
+        padding: 0 10px;
+        z-index: 99998;
+        max-width: 100%;
+    }
+    #slideMask{
+        z-index: 99999;
+        position: fixed;
+        top: calc(100vh - 150px);
+        left: 0px;
+        right: 0px;
+        width: 100%;
+/*        padding-top: 144%;*/
+        height: 110vh;
+        background: url(../images/Logo_Fatline.png) no-repeat, url(../images/mask/fatline_www3.png) no-repeat;
+        background-size: 45%, 100%;
+        background-position: center 77%, top center;
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        transition: all 1s ease;
+        opacity: 1;
+    }
+    .logo{
+        margin: 10px auto;
+    }
+    #topBar.close{position: absolute;}
+    #general-menu{
+        float: none;
+        margin: 0px auto;
+        width: 80%;
+        clear: both;
+        display: table;
+    }
+    #general-menu ul{
+        display: table;
+        /* width: 100%; */
+    
+        margin: auto;
+}
+    #general-menu ul li a{
+        width: 100%;
+    }
+    #general-menu ul li{
+        float: left;
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+    #general-menu ul li a{
+        padding: 5px 10px;
+        margin-left: 0px;
+        font-size: 20px;
+}
+#topBar .fb{display: none;}
+
+.page-bg1{width: 100%;}
+#topBar{width: 100%;}
+#aboutUs-section .subLogo{max-width: 75%;}
+#aboutUs-section .desc{}
+.page-bg1a:before{
+    height: auto;
+    padding-top: 50%;
+    bottom: 0;
+    top: 85%;
+}
+.page-bg1a:after{
+    height: auto;
+    padding-top: 50%;
+    bottom: 0;
+    top: 85%;
+}
+.aboutus-box{
+    height: auto;
+padding-top: 0%;
+}
+#aboutUs-section{
+    position: static;
+    padding-bottom: 30px;
+}
+#services-section .desc{
+    text-align: center;
+}
+.bottomArr{
+    max-width: 50%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#footer .icons li{
+    width: 100%;
+clear: both;
+}
+#footer .icons li.big{width: 100%;}
+#portfolio-section .portfolio-slider-box .portfolio-slider li .info{opacity: 1;}
+#portfolio-section .portfolio-slider-box .portfolio-slider li .picture a{opacity: 1!important;}
+.navbar-toggle{
+    position: absolute!important;
+    z-index: 999999999;
+    top: 5px;
+    right: 5px;
+}
+}

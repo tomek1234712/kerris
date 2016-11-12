@@ -1,0 +1,506 @@
+/* 
+    Author     : Cichy
+*/
+
+body{
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+    position: relative;
+    color: #676767;
+    background-color: #FFF;
+    overflow-x: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    padding-top: 80px;
+}
+.page-height{}
+.onlyMobile{display: none;}
+
+.page-wrap{
+    margin: auto;  
+    max-width: 75%;
+    padding: 0 30px;
+    position: relative;
+    z-index: 350;
+    z-index: 99999;
+}
+
+/* menu top */
+.logo{
+    display: block;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    background: url(../images/Logo_home.png) no-repeat center;
+    width: 57px;
+    height: 50px;
+    margin: 15px 1px 0 0;
+}
+.logo:hover{
+    opacity: 0.8;
+}
+
+#topBar{
+    min-height: 80px;
+    background: #0c1e2d;
+    width: 100%;
+    top: 0px;
+    z-index: 100000;
+    position: fixed;
+}
+
+#topBar .fb{
+    background: url(../images/facebook.png) no-repeat center;
+    display: block;
+    height: 40px;
+    width: 40px;
+    margin: 18px 0 0 0;
+    float: right;
+}
+#topBar .fb:hover{}
+
+#general-menu {
+    position: relative;
+    display: table;
+    height: auto;
+    z-index: 16;
+    font-size: 14px;
+    margin: 28px auto 0 auto;
+    z-index: 9999999;
+}
+#general-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: table;
+}
+#general-menu ul li {
+    display: block;
+    float: left;
+    width: auto;
+    position: relative;
+}
+#general-menu ul li a{
+    -webkit-transition: background-color .2s ease;
+    -moz-transition: background-color .2s ease;
+    -ms-transition: background-color .2s ease;
+    -o-transition: background-color .2s ease;
+    transition: background-color .2s ease;
+}
+#general-menu ul li.current_page_item a, #general-menu ul li:hover a{
+    color: #d7a428;
+}
+#general-menu ul li:first-child a{
+    margin-left: 0px;
+}
+#general-menu ul li a {
+    color: #FFF;
+    display: block;
+    float: left;
+    width: auto;
+    height: auto;
+    min-height: 21px;
+    padding: 2px 9px;
+    text-decoration: none;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 14px;
+    white-space: nowrap;
+    margin-left: 75px;
+}
+
+
+/* background */
+
+.page-bg1{
+    position: relative;
+}
+.page-bg1a{
+    background: url(../images/onas.jpg) no-repeat center #1d0d2c;
+    margin: auto;
+    width: 100%;
+    position: relative;
+}
+.page-bg1a:after{
+    content: "";
+    display: block;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: url(../images/mask/mask_02.png)right top;  background-repeat: no-repeat;  background-size: 100% 100%;
+}
+.page-bg1a:before{
+    content: "";
+    display: block;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: url(../images/mask/mask_02a.png)right top;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.page-bg2{
+    clear: both;
+    width: 100%;
+    float: left;
+}
+.page-bg3{}
+.page-bg4{}
+
+
+/* rotate */
+
+
+
+/* universal */
+
+.section{
+    width: 100%;
+    clear: both;
+}
+.title.white{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    color: #FFF;
+    border-bottom: 1px solid #FFF;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.title.gray{
+    text-transform: uppercase;  text-align: center;  font-size: 28px;  font-weight: 600;  
+    color: #878787;  
+    border-bottom: 1px solid #878787;  padding-bottom: 10px;
+    width: 100%;  
+}
+.scroolBottom.white{
+    width: 66px;
+    height: 66px;
+    background: url(../images/img_15.png) no-repeat center;
+    margin: 10px auto;
+    opacity: 0.7;
+    cursor: pointer;
+}
+.scroolBottom.gray{
+    width: 66px;  height: 66px;  
+    background: url(../images/img_18.png) no-repeat center;  
+    margin: 150px auto 50px auto;
+    opacity: 0.7;
+    cursor: pointer;
+}
+.scroolBottom.white:hover{
+    opacity: 1;
+}
+.scroolBottom.gray:hover{
+    opacity: 1;
+}
+
+/* section about */
+
+#aboutUs-section{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+#aboutUs-section .subLogo{
+    display: block;
+    margin: 45px auto 1px auto;
+    max-width: 100%;
+    height: auto;
+}
+#aboutUs-section .desc{
+    font-size: 16px;
+    color: #FFF;
+    font-weight: 300;
+    text-align: center;
+    margin: 30px auto;
+    width: 67%;
+    line-height: 20px;
+}
+#aboutUs-section .title{}
+#aboutUs-section .scroolBottom{}
+.aboutus-box{
+    position: relative;
+    width: 100%;
+    padding-top: 50%;
+}
+/* section services */
+
+#services-section{
+    height: 100%;
+    padding: 35px 0;
+    position: relative;
+}
+#services-section:after{
+    content: "";
+    display: block;      
+    width: 36%;  padding-top: 36%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background: url(../images/mask/mask_04.png)right top;  background-repeat: no-repeat;  background-size: 100% 100%;
+}
+#services-section:before{
+    content: "";
+    display: block;
+    width: 36%;
+    padding-top: 36%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background: url(../images/mask/gray-right.png)right top;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#services-section .title{}
+#services-section .desc{
+    color: #878787;
+    font-size: 16px;    font-weight: 300;  
+    text-align: left;  margin: 30px auto;
+    line-height: 20px;
+}
+#services-section .scroolBottom{}
+.services-box{
+    height: 100%;
+}
+
+/* section products */
+
+#products-section{
+    background: url(../images/mask/mask_06.png) no-repeat top center, url(../images/PRODUKTY.jpg) no-repeat center #0E0F11;
+    padding: 50px 0;
+    position: relative;
+    position: r;
+}
+
+#products-section:after{
+    content: "";
+    display: block;  
+    width: 18%;  padding-top: 18%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background: url(../images/mask/mask_09.png)right top;  background-repeat: no-repeat;  background-size: 100% 100%;
+}
+#products-section:before{
+    content: "";
+    display: block;
+    width: 18%;
+    padding-top: 18%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background: url(../images/mask/mask_12.png)right top;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#products-section .title{}
+#products-section .products-list-box{}
+#products-section .products-list-box .product-item{}
+#products-section .products-list-box .product-item .product-item-title{
+    background-repeat: no-repeat;
+    color: #FFF;
+    padding-left: 55px;
+    font-size: 16px;
+    height: 38px;
+    background-position: left center;
+    padding-top: 11px;
+    font-weight: 600;
+}
+#products-section .products-list-box .product-item .desc{
+    font-weight: 300;
+    color: #FFF;
+}
+#products-section .scroolBottom{}
+.products-box{
+    clear: both;
+}
+.bottomArr{
+    width: 336px;
+    height: 165px;
+    background: url(../images/mask/mask_15.png);
+    margin: 0 auto 100px auto;
+}
+
+/* section portfolio */
+
+#portfolio-section{
+    height: 100%;
+    position: relative;
+}
+#portfolio-section .title{}
+#portfolio-section .desc{
+    font-size: 17px;
+    font-weight: 300;
+    padding: 25px 0;
+}
+#portfolio-section .portfolio-slider-box{}
+#portfolio-section .portfolio-slider-box .portfolio-slider{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#portfolio-section .portfolio-slider-box .portfolio-slider li{
+    width: 370px;
+    float: left;
+    text-align: center;
+}
+#portfolio-section .portfolio-slider-box .portfolio-slider li .picture{
+    width: 100%;
+    padding-top: 53%;
+    position: relative;
+    opacity: 1;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#portfolio-section .portfolio-slider-box .portfolio-slider li .picture:hover{
+    opacity: 0.8;
+}
+#portfolio-section .portfolio-slider-box .portfolio-slider li .picture .picture-link{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+#portfolio-section .portfolio-slider-box .portfolio-slider li .picture a:not(.picture-link){
+        -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background: url(../images/img_38.png) no-repeat center;
+        opacity: 0;
+        color: transparent;
+        font-size: 1px;
+}
+#portfolio-section .portfolio-slider-box .portfolio-slider li:hover a:not(.picture-link){opacity: 1;}
+#portfolio-section .portfolio-slider-box .portfolio-slider li .info{
+    opacity: 0;
+        -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+#portfolio-section .portfolio-slider-box .portfolio-slider li:hover .info{opacity: 1;}
+#portfolio-section .portfolio-slider-box .portfolio-slider li .info > h3{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#portfolio-section .portfolio-slider-box .portfolio-slider li .info .sdesc{
+    font-size: 11px;
+    font-weight: 300;
+    width: 100%;
+}
+#portfolio-section .scroolBottom{}
+.portfolio-box{
+    height: 100%;
+    clear: both;
+}
+#portfolio-section:after{
+    content: "";
+    display: block;  
+    width: 25%;  
+    padding-top: 25%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background: url(../images/mask/mask_18.png)right top;  background-repeat: no-repeat;  background-size: 100% 100%;
+}
+#portfolio-section:before{
+    content: "";
+    display: block;  
+    width: 25%;
+    padding-top: 25%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background: url(../images/mask/mask_21.png)right top;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/* footer */
+
+#footer{
+    background: #111111;
+    padding: 1px 0 100px 1px;
+}
+#footer .footer-title{
+    text-transform: uppercase;  text-align: center;  font-size: 28px;  font-weight: 600;  color: #FFF;  border-bottom: 1px solid #FFF;  padding-bottom: 10px;  
+    width: 100%;  
+    clear: both;
+    margin-top: 0;
+    padding-top: 40px;
+}
+#footer .icons{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#footer .icons li{
+    display: inline-block;
+    width: 20%;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    float: left;
+    margin-top: 50px;
+}
+#footer .icons li:last-child{
+    float: none;
+}
+#footer .icons li.big{
+    width: 32%;        
+}
+#footer .icons li .ico{
+    text-align: center;
+    margin-bottom: 30px;
+}
+#footer .icons li .ico img{}
+#footer .icons li .desc{}
+#footer .icons li .desc p{
+    margin-bottom: 0px;
+}
+#footer .icons li .desc strong{}
+#slideMask{
+    position: fixed;
+    top: calc(100vh - 150px);
+    left: 0px;
+    right: 0px;
+    height: 2000px;
+    background: url(../images/mask/fatline_www2.png) no-repeat;
+    z-index: 99998;
+    background-size: 100%;
+    background-position: top center;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    opacity: 1;
+}
+#slideMask.close2{
+    top: 0px;
+}
+div.pp_overlay, .lightboxOverlay{z-index: 950098!important;}
+div.pp_pic_holder, .lightbox{z-index: 950099!important;}
